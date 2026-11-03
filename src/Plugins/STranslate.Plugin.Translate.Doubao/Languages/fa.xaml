@@ -1,0 +1,56 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Account">حساب Doubao</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Login">ورود به Doubao</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckLogin">بررسی ورود</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Logout">خروج</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_LoggedIn">وارد شده</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_NotLoggedIn">وارد نشده‌اید. روی «ورود به Doubao» کلیک کنید و در پنجره بازشده وارد شوید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginWindowTitle">ورود به Doubao (پس از ورود، پنجره خودکار بسته می‌شود)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginSuccess">ورود موفق</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckSuccess">نشست معتبر است</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_NotLoggedIn">ابتدا وارد حساب Doubao شوید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginExpired">نشست Doubao منقضی شده است، دوباره وارد شوید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RateLimited">درخواست‌ها بیش از حد است، بعداً دوباره تلاش کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RequestFailed">درخواست ترجمه Doubao ناموفق بود</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_EmptyResult">Doubao ترجمه‌ای برنگرداند</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_WebView2Missing">پنجره ورود باز نشد. لطفاً Microsoft Edge WebView2 Runtime را نصب کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine">موتور ترجمه</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Description">موتور ارائه‌شده توسط ترجمه وب Doubao</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_DoubaoAi">Doubao AI</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Volcengine">Volcengine</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Microsoft">مترجم مایکروسافت</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie">وارد کردن دستی Cookie</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie_Description">اگر پنجره ورود در دسترس نیست، Cookie سایت www.doubao.com را از مرورگر کپی و اینجا جای‌گذاری کنید</sys:String>
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Title">ترجمه سند</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Open">باز کردن</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_TargetLang">زبان مقصد</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Cancel">لغو</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_OpenOutput">نمایش در پوشه</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Reading">در حال خواندن فایل…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Progress">در حال ترجمه {0}/{1} بند…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Done">انجام شد: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Canceled">لغو شد</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Failed">ترجمه ناموفق بود:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Unsupported">فایل پشتیبانی نمی‌شود. لطفاً PDF، Word (.docx)، TXT یا Markdown انتخاب کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_NoText">متنی برای ترجمه پیدا نشد (PDF اسکن‌شده ابتدا به OCR نیاز دارد)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Suffix">bilingual</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Open">باز کردن فایل</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Mirror">نمایش موازی</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Export">خروجی Word دوزبانه</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Empty">روی «باز کردن فایل» کلیک و یک PDF انتخاب کنید؛ هر صفحه‌ای که می‌خوانید ترجمه می‌شود</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Hint">با باز کردن PDF، متن اصلی در چپ و صفحه ترجمه با همان چیدمان در راست نمایش داده می‌شود و با پیمایش ترجمه می‌شود. Word/TXT/Markdown مستقیماً به فایل دوزبانه تبدیل می‌شوند</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Loading">در حال بارگذاری سند…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_OpenFailed">فایل باز نشد:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_NoText">صفحه {0}/{1} متنی برای ترجمه ندارد (PDF اسکن‌شده ابتدا به OCR نیاز دارد)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Translating">در حال ترجمه صفحه {0}/{1}…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PageDone">صفحه {0}/{1} ترجمه شد</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Exporting">در حال خروجی صفحه {0}/{1}…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Description">PDF را بخوانید و صفحه فعلی را ترجمه کنید، با امکان خروجی Word دوزبانه؛ Word/TXT/Markdown مستقیماً به فایل دوزبانه تبدیل می‌شوند</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PagePending">در حال ترجمه…</sys:String>
+
+</ResourceDictionary>

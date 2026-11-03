@@ -1,0 +1,69 @@
+<UserControl
+    x:Class="STranslate.Plugin.Translate.Doubao.View.SettingsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf"
+    xmlns:local="clr-namespace:STranslate.Plugin.Translate.Doubao"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:plugin="clr-namespace:STranslate.Plugin;assembly=STranslate.Plugin"
+    xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+    xmlns:vm="clr-namespace:STranslate.Plugin.Translate.Doubao.ViewModel"
+    d:DataContext="{d:DesignInstance Type=vm:SettingsViewModel}"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <ikw:SimpleStackPanel Spacing="12">
+        <ui:SettingsCard Description="{Binding LoginStatus}" Header="{DynamicResource STranslate_Plugin_Translate_Doubao_Account}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Person_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <ikw:SimpleStackPanel Orientation="Horizontal" Spacing="4">
+                <Button
+                    Command="{Binding LoginCommand}"
+                    Content="{DynamicResource STranslate_Plugin_Translate_Doubao_Login}"
+                    Style="{StaticResource {x:Static ui:ThemeKeys.AccentButtonStyleKey}}" />
+                <Button Command="{Binding CheckLoginCommand}" Content="{DynamicResource STranslate_Plugin_Translate_Doubao_CheckLogin}" />
+                <Button Command="{Binding LogoutCommand}" Content="{DynamicResource STranslate_Plugin_Translate_Doubao_Logout}" />
+            </ikw:SimpleStackPanel>
+        </ui:SettingsCard>
+
+        <ui:SettingsCard Description="{DynamicResource STranslate_Plugin_Translate_Doubao_Engine_Description}" Header="{DynamicResource STranslate_Plugin_Translate_Doubao_Engine}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Translate_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <ComboBox
+                MinWidth="200"
+                SelectedValue="{Binding Engine}"
+                SelectedValuePath="Tag">
+                <ComboBoxItem Content="{DynamicResource STranslate_Plugin_Translate_Doubao_Engine_DoubaoAi}" Tag="{x:Static local:DoubaoEngine.DoubaoAi}" />
+                <ComboBoxItem Content="{DynamicResource STranslate_Plugin_Translate_Doubao_Engine_Volcengine}" Tag="{x:Static local:DoubaoEngine.Volcengine}" />
+                <ComboBoxItem Content="{DynamicResource STranslate_Plugin_Translate_Doubao_Engine_Microsoft}" Tag="{x:Static local:DoubaoEngine.Microsoft}" />
+            </ComboBox>
+        </ui:SettingsCard>
+
+        <ui:SettingsCard Description="{DynamicResource STranslate_Plugin_Translate_Doubao_Doc_Description}" Header="{DynamicResource STranslate_Plugin_Translate_Doubao_Doc_Title}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Document_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <Button Command="{Binding OpenDocumentTranslateCommand}" Content="{DynamicResource STranslate_Plugin_Translate_Doubao_Doc_Open}" />
+        </ui:SettingsCard>
+
+        <ui:SettingsExpander Description="{DynamicResource STranslate_Plugin_Translate_Doubao_Cookie_Description}" Header="{DynamicResource STranslate_Plugin_Translate_Doubao_Cookie}">
+            <ui:SettingsExpander.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Cookies_24_Regular}" />
+            </ui:SettingsExpander.HeaderIcon>
+            <ui:SettingsExpander.Items>
+                <ui:SettingsCard ContentAlignment="Left">
+                    <PasswordBox
+                        MinWidth="500"
+                        plugin:PasswordBoxAssistant.Attach="True"
+                        plugin:PasswordBoxAssistant.Password="{Binding Cookie}"
+                        ui:ControlHelper.PlaceholderText="sessionid=...; sid_tt=...; uid_tt=..." />
+                </ui:SettingsCard>
+            </ui:SettingsExpander.Items>
+        </ui:SettingsExpander>
+
+    </ikw:SimpleStackPanel>
+</UserControl>

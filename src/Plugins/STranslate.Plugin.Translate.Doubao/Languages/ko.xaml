@@ -1,0 +1,56 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Account">Doubao 계정</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Login">Doubao 로그인</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckLogin">로그인 확인</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Logout">로그아웃</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_LoggedIn">로그인됨</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_NotLoggedIn">로그인되지 않음. "Doubao 로그인"을 클릭해 팝업 창에서 로그인하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginWindowTitle">Doubao 로그인 (로그인 후 창이 자동으로 닫힙니다)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginSuccess">로그인 성공</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckSuccess">로그인 상태가 유효합니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_NotLoggedIn">먼저 Doubao 계정에 로그인하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginExpired">Doubao 로그인이 만료되었습니다. 다시 로그인하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RateLimited">요청이 너무 많습니다. 잠시 후 다시 시도하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RequestFailed">Doubao 번역 요청 실패</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_EmptyResult">Doubao가 번역 결과를 반환하지 않았습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_WebView2Missing">로그인 창을 열 수 없습니다. Microsoft Edge WebView2 Runtime을 설치하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine">번역 엔진</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Description">Doubao 웹 번역이 제공하는 엔진</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_DoubaoAi">Doubao AI</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Volcengine">Volcengine</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Microsoft">Microsoft 번역</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie">Cookie 직접 입력</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie_Description">로그인 창을 사용할 수 없으면 브라우저에서 www.doubao.com 쿠키를 복사해 붙여 넣으세요</sys:String>
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Title">문서 번역</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Open">열기</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_TargetLang">대상 언어</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Cancel">취소</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_OpenOutput">폴더 열기</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Reading">파일 읽는 중…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Progress">번역 중 {0}/{1} 단락…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Done">완료: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Canceled">취소됨</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Failed">번역 실패:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Unsupported">지원하지 않는 파일입니다. PDF, Word(.docx), TXT 또는 Markdown 파일을 선택하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_NoText">번역할 텍스트가 없습니다 (스캔 PDF는 먼저 OCR이 필요합니다)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Suffix">이중언어</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Open">파일 열기</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Mirror">대조 보기</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Export">이중 언어 Word 내보내기</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Empty">"파일 열기"로 PDF를 선택하면 읽는 페이지를 번역합니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Hint">PDF를 열면 왼쪽에 원문, 오른쪽에 같은 레이아웃의 번역 페이지가 표시되며 스크롤에 맞춰 번역됩니다. Word/TXT/Markdown은 이중 언어 파일로 바로 내보냅니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Loading">문서 불러오는 중…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_OpenFailed">파일을 열 수 없습니다:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_NoText">{0}/{1} 페이지에 번역할 텍스트가 없습니다 (스캔 PDF는 먼저 OCR이 필요합니다)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Translating">{0}/{1} 페이지 번역 중…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PageDone">{0}/{1} 페이지 번역 완료</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Exporting">{0}/{1} 페이지 내보내는 중…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Description">PDF를 읽으며 현재 페이지를 번역하고 이중 언어 Word로 내보낼 수 있습니다. Word/TXT/Markdown은 이중 언어 파일로 바로 내보낼 수 있습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PagePending">번역 중…</sys:String>
+
+</ResourceDictionary>

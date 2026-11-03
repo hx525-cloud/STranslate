@@ -1,0 +1,56 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Account">Doubao アカウント</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Login">Doubao にログイン</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckLogin">ログイン確認</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Logout">ログアウト</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_LoggedIn">ログイン済み</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_NotLoggedIn">未ログイン。「Doubao にログイン」をクリックしてポップアップでログインしてください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginWindowTitle">Doubao にログイン（ログイン後に自動で閉じます）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginSuccess">ログインしました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckSuccess">ログイン状態は有効です</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_NotLoggedIn">先に Doubao アカウントにログインしてください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginExpired">Doubao のログインが期限切れです。再ログインしてください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RateLimited">リクエストが多すぎます。しばらくしてから再試行してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RequestFailed">Doubao 翻訳リクエストに失敗しました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_EmptyResult">Doubao から訳文が返されませんでした</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_WebView2Missing">ログインウィンドウを開けません。Microsoft Edge WebView2 Runtime をインストールしてください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine">翻訳エンジン</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Description">Doubao ウェブ翻訳が提供するエンジン</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_DoubaoAi">Doubao AI</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Volcengine">Volcengine</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Microsoft">Microsoft 翻訳</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie">Cookie を手動入力</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie_Description">ログインウィンドウが使えない場合は、ブラウザから www.doubao.com の Cookie をコピーして貼り付けてください</sys:String>
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Title">文書翻訳</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Open">開く</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_TargetLang">翻訳先言語</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Cancel">キャンセル</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_OpenOutput">フォルダーを開く</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Reading">ファイルを読み込み中…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Progress">翻訳中 {0}/{1} 段落…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Done">完了：{0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Canceled">キャンセルしました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Failed">翻訳に失敗しました：</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Unsupported">未対応のファイルです。PDF、Word(.docx)、TXT、Markdown を選択してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_NoText">翻訳できる文字がありません（スキャン PDF は先に OCR が必要です）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Suffix">対訳</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Open">ファイルを開く</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Mirror">対訳表示</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Export">対訳 Word を出力</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Empty">「ファイルを開く」から PDF を選ぶと、読んでいるページを翻訳します</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Hint">PDF を開くと左に原文、右に同じレイアウトの訳文ページを表示し、スクロールに合わせて翻訳します。Word/TXT/Markdown は対訳ファイルを直接作成します</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Loading">文書を読み込み中…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_OpenFailed">ファイルを開けません：</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_NoText">{0}/{1} ページに翻訳できる文字がありません（スキャン PDF は先に OCR が必要です）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Translating">{0}/{1} ページを翻訳中…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PageDone">{0}/{1} ページの翻訳が完了しました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Exporting">{0}/{1} ページを出力中…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Description">PDF を読みながら現在のページを翻訳し、対訳 Word も出力できます。Word/TXT/Markdown は対訳ファイルを直接作成できます</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PagePending">翻訳中…</sys:String>
+
+</ResourceDictionary>

@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <!--// 编译后打包为插件 //-->
+        <!--<EnableAutoPackage>true</EnableAutoPackage>-->
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>..\..\.artifacts\Debug\Plugins\STranslate.Plugin.Translate.Doubao\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>..\..\.artifacts\Release\Plugins\STranslate.Plugin.Translate.Doubao\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="Languages\*.*">
+            <Generator>MSBuild:Compile</Generator>
+            <SubType>Designer</SubType>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="icon.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="pdfjs\**\*.*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Reader\bridge.js">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="plugin.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <!--    <ItemGroup>-->
+    <!--      <PackageReference Include="STranslate.Plugin" />-->
+    <!--    </ItemGroup>-->
+
+    <!--// 类库默认不复制 NuGet 程序集；只复制插件私有依赖，宿主已提供的程序集不重复输出 //-->
+    <PropertyGroup>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <Target Name="KeepPluginPrivateDependencies" AfterTargets="ResolveLockFileCopyLocalFiles">
+        <ItemGroup>
+            <ReferenceCopyLocalPaths Remove="@(ReferenceCopyLocalPaths)" Condition="'%(ReferenceCopyLocalPaths.NuGetPackageId)' != '' and '%(ReferenceCopyLocalPaths.NuGetPackageId)' != 'PdfPig' and '%(ReferenceCopyLocalPaths.NuGetPackageId)' != 'DocumentFormat.OpenXml' and '%(ReferenceCopyLocalPaths.NuGetPackageId)' != 'DocumentFormat.OpenXml.Framework' and '%(ReferenceCopyLocalPaths.NuGetPackageId)' != 'Microsoft.Web.WebView2'" />
+        </ItemGroup>
+    </Target>
+
+    <ItemGroup>
+        <PackageReference Include="DocumentFormat.OpenXml" />
+        <PackageReference Include="Microsoft.Web.WebView2" />
+        <PackageReference Include="PdfPig" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\STranslate.Plugin\STranslate.Plugin.csproj" />
+    </ItemGroup>
+
+</Project>

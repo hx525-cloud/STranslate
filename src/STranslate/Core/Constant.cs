@@ -64,6 +64,7 @@ public class Constant
         "86ec10628e754d41921d24387ec6e815", //Baidu
         "474b5fe844d9455ba0c59f75c1424f0d", //BigModel
         "09d6beef9b1f4891a4a0d8a8dbf510d1", //DeepL
+        "61e806463af94904acbca808a374f4cb", //Doubao
         "0b5d84917783415d865032f1d6e2877f", //GoogleBuiltIn
         "0f6892a390a543709926092aba510273", //ICibaDict
         "05e1bf32df8e4d18a9c39bd51d909bef", //ICibaTranslateBuiltIn

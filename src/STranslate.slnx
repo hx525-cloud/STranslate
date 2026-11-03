@@ -30,6 +30,7 @@
     <Project Path="Plugins/STranslate.Plugin.Translate.Baidu/STranslate.Plugin.Translate.Baidu.csproj" />
     <Project Path="Plugins/STranslate.Plugin.Translate.BigModel/STranslate.Plugin.Translate.BigModel.csproj" />
     <Project Path="Plugins/STranslate.Plugin.Translate.DeepL/STranslate.Plugin.Translate.DeepL.csproj" />
+    <Project Path="Plugins/STranslate.Plugin.Translate.Doubao/STranslate.Plugin.Translate.Doubao.csproj" />
     <Project Path="Plugins/STranslate.Plugin.Translate.MTranServer/STranslate.Plugin.Translate.MTranServer.csproj" />
     <Project Path="Plugins/STranslate.Plugin.Translate.OpenAI/STranslate.Plugin.Translate.OpenAI.csproj" />
     <Project Path="Plugins/STranslate.Plugin.Translate.Youdao/STranslate.Plugin.Translate.Youdao.csproj" />

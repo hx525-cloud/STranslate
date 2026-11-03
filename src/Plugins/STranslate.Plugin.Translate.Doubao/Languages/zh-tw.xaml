@@ -1,0 +1,56 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Account">豆包帳號</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Login">登入豆包</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckLogin">檢測登入</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Logout">登出</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_LoggedIn">已登入</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Status_NotLoggedIn">未登入，點擊「登入豆包」在彈出視窗中登入</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginWindowTitle">登入豆包（登入成功後視窗會自動關閉）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginSuccess">登入成功</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_CheckSuccess">登入狀態有效</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_NotLoggedIn">請先登入豆包帳號</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_LoginExpired">豆包登入已過期，請重新登入</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RateLimited">請求過於頻繁，請稍後再試</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_RequestFailed">豆包翻譯請求失敗</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_EmptyResult">豆包沒有回傳譯文</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_WebView2Missing">無法開啟登入視窗，請先安裝 Microsoft Edge WebView2 Runtime</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine">翻譯引擎</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Description">豆包網頁翻譯提供的翻譯引擎</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_DoubaoAi">豆包 AI</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Volcengine">火山引擎</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Engine_Microsoft">微軟翻譯</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie">手動填寫 Cookie</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Cookie_Description">無法使用登入視窗時，可從瀏覽器複製 www.doubao.com 的 Cookie 貼到這裡</sys:String>
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Title">文件翻譯</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Open">開啟</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_TargetLang">目標語言</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Cancel">取消</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_OpenOutput">開啟所在位置</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Reading">正在讀取檔案…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Progress">正在翻譯 {0}/{1} 段…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Done">完成，已產生 {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Canceled">已取消</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Failed">翻譯失敗：</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Unsupported">不支援的檔案，請選擇 PDF、Word(.docx)、TXT 或 Markdown 檔案</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_NoText">檔案中沒有可翻譯的文字（掃描版 PDF 需要先 OCR）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Suffix">雙語</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Open">開啟檔案</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Mirror">對照顯示</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Export">匯出雙語 Word</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Empty">點擊「開啟檔案」選擇 PDF，翻到哪一頁就翻譯哪一頁</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Hint">開啟 PDF 後，左側為原文，右側為同版式的譯文對照頁，捲動到哪裡就翻譯哪裡；選擇 Word/TXT/Markdown 會直接產生雙語檔案</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Loading">正在載入文件…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_OpenFailed">無法開啟檔案：</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_NoText">第 {0}/{1} 頁沒有可翻譯的文字（掃描版 PDF 需要先 OCR）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Translating">正在翻譯第 {0}/{1} 頁…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PageDone">第 {0}/{1} 頁翻譯完成</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_Exporting">正在匯出第 {0}/{1} 頁…</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Doc_Description">開啟 PDF 邊讀邊翻譯目前頁面，支援匯出雙語 Word；Word/TXT/Markdown 可直接產生雙語檔案</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Doubao_Reader_PagePending">翻譯中…</sys:String>
+
+</ResourceDictionary>

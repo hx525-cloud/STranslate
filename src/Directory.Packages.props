@@ -6,6 +6,7 @@
     <PackageVersion Include="ChefKeys" Version="0.1.2" />
     <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.2" />
     <PackageVersion Include="Costura.Fody" Version="6.2.0" />
+    <PackageVersion Include="DocumentFormat.OpenXml" Version="3.5.1" />
     <PackageVersion Include="Dapper.Contrib" Version="2.0.78" />
     <PackageVersion Include="gong-wpf-dragdrop" Version="4.0.0" />
     <PackageVersion Include="H.InputSimulator" Version="1.5.0" />
@@ -37,6 +38,8 @@
     <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
     <PackageVersion Include="System.Reflection.MetadataLoadContext" Version="10.0.9" />
     <PackageVersion Include="Velopack" Version="1.2.0" />
+    <PackageVersion Include="Microsoft.Web.WebView2" Version="1.0.4314.35" />
+    <PackageVersion Include="PdfPig" Version="0.1.16" />
     <PackageVersion Include="WebDav.Client" Version="2.9.0" />
     <PackageVersion Include="WeChatOcr" Version="1.0.5" />
     <PackageVersion Include="WpfMath" Version="2.1.0" />
